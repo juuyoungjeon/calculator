@@ -5,7 +5,6 @@ pipeline {
       parallel {
         stage('hello') {
           steps {
-            sh './gradlew compileJava'
             echo 'hello'
           }
         }
